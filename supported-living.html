@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Spectrum Neuro Health Supported Living — life skills, independence training, legal advocacy and community support for young adults, children and families." />
+  <title>Supported Living | Spectrum Neuro Health</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- OFFER BANNER -->
+<div class="offer-banner" role="banner">
+  <div class="offer-banner__inner">
+    <span class="offer-badge">🎁 Launch Offer</span>
+    <p>The <strong>first 100 families</strong> to join our waiting list receive a <strong>30% discount</strong> on their full assessment.</p>
+    <a href="assessments.html#waiting-list">Secure your spot &rarr;</a>
+  </div>
+</div>
+
+<!-- NAVIGATION -->
+<header>
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Spectrum Neuro Health home">
+        <div class="nav__logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <div class="nav__logo-text">
+          <span class="nav__logo-name">Spectrum Neuro Health</span>
+          <span class="nav__logo-sub">360° Neurodevelopmental Support</span>
+        </div>
+      </a>
+      <ul class="nav__menu" role="list">
+        <li class="nav__item">
+          <a href="assessments.html" class="nav__link">
+            Assessments
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+          </a>
+          <div class="nav__dropdown" role="menu">
+            <a href="assessments.html" class="nav__dd-item"><span class="nav__dd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></span><span class="nav__dd-label"><span class="nav__dd-main">New Assessments</span><span class="nav__dd-sub">ADHD, Autism &amp; Dyslexia</span></span></a>
+            <a href="assessments.html#transitions" class="nav__dd-item"><span class="nav__dd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8l4 4-4 4M3 12h18"/></svg></span><span class="nav__dd-label"><span class="nav__dd-main">Reassessment at Transitions</span></span></a>
+            <a href="assessments.html#education" class="nav__dd-item"><span class="nav__dd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/></svg></span><span class="nav__dd-label"><span class="nav__dd-main">For Education Providers</span></span></a>
+            <a href="assessments.html#legal" class="nav__dd-item"><span class="nav__dd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0"/></svg></span><span class="nav__dd-label"><span class="nav__dd-main">Legal Help</span></span></a>
+            <a href="assessments.html#financial" class="nav__dd-item"><span class="nav__dd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2"/></svg></span><span class="nav__dd-label"><span class="nav__dd-main">Financial Support</span></span></a>
+          </div>
+        </li>
+        <li class="nav__item">
+          <a href="supported-living.html" class="nav__link" aria-current="page">
+            Supported Living
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+          </a>
+          <div class="nav__dropdown" role="menu">
+            <a href="#impact" class="nav__dd-item"><span class="nav__dd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></span><span class="nav__dd-label"><span class="nav__dd-main">Our Community Impact</span><span class="nav__dd-sub">Real change, real families</span></span></a>
+            <a href="#offer" class="nav__dd-item"><span class="nav__dd-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></span><span class="nav__dd-label"><span class="nav__dd-main">Our Offer</span><span class="nav__dd-sub">Life skills, independence &amp; more</span></span></a>
+          </div>
+        </li>
+      </ul>
+      <div class="nav__cta-area">
+        <a href="assessments.html#waiting-list" class="btn btn--primary btn--sm">Join Waiting List</a>
+      </div>
+      <button class="nav__mobile-btn" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" role="dialog" aria-modal="true">
+  <div class="mobile-menu__panel">
+    <div class="mobile-menu__head">
+      <span style="font-weight:700;color:var(--teal);">Menu</span>
+      <button class="mobile-menu__close" aria-label="Close menu"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <nav>
+      <p class="mobile-sec-title">Assessments</p>
+      <a href="assessments.html" class="mobile-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="12" cy="12" r="10"/></svg> New Assessments</a>
+      <a href="assessments.html#legal" class="mobile-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0"/></svg> Legal Help</a>
+      <a href="assessments.html#financial" class="mobile-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M12 8c-1.657 0-3 .895-3 2"/></svg> Financial Support</a>
+      <p class="mobile-sec-title">Supported Living</p>
+      <a href="#impact" class="mobile-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg> Community Impact</a>
+      <a href="#offer" class="mobile-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364"/></svg> Our Offer</a>
+      <div class="mobile-menu__cta"><a href="assessments.html#waiting-list" class="btn btn--primary btn--full">Join Waiting List</a></div>
+    </nav>
+  </div>
+</div>
+
+<!-- PAGE HERO -->
+<main id="main-content">
+<section class="page-hero" style="background:linear-gradient(135deg,#c0715a 0%,#9f4e32 100%);" aria-labelledby="sl-heading">
+  <div class="container">
+    <div class="page-hero__inner">
+      <div class="page-hero__badge">🏠 Supported Living</div>
+      <h1 class="page-hero__title" id="sl-heading">Expert Care. Specialist Skills. Legal Strength.</h1>
+      <p class="page-hero__sub">We speak the language of the law, so you don't have to. At Spectrum Neuro Health, we believe everyone deserves a safe home and a chance to shine. We provide expert, non-regulated support for young adults, children and families — teaching the skills needed for a lifetime of independence.</p>
+      <div class="page-hero__btns">
+        <a href="#offer" class="btn btn--primary btn--lg">Explore Our Services</a>
+        <a href="#enquire" class="btn btn--ghost btn--lg">Enquire Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TABS NAV -->
+<section class="section--sm bg-oat" id="sl-tabs-section">
+  <div class="container">
+    <div class="tabs" role="tablist" aria-label="Supported Living sections">
+      <div class="tabs__nav">
+        <button class="tabs__btn active" role="tab" aria-selected="true" data-tab="impact" aria-controls="panel-impact">Our Impact on the Community</button>
+        <button class="tabs__btn" role="tab" aria-selected="false" data-tab="offer" aria-controls="panel-offer">Our Offer</button>
+      </div>
+
+      <!-- ════════════════════════════════
+           TAB 1: COMMUNITY IMPACT
+           ════════════════════════════════ -->
+      <div class="tab-panel active" id="panel-impact" role="tabpanel">
+        <div style="padding:var(--sp-6) 0;">
+
+          <div class="sec-hd sec-hd--center anim">
+            <span class="sec-tag">Our Impact</span>
+            <h2>Making Lasting Change in Communities</h2>
+          </div>
+
+          <!-- Impact statement -->
+          <div style="max-width:800px;margin:0 auto var(--sp-8);text-align:center;" class="anim anim-d1">
+            <p style="font-size:1.15rem;line-height:1.8;color:var(--charcoal);">At SNHealth, we don't just provide services — we make lasting, transformative impacts on the individuals and families we support. Through our holistic approach to care, we create a ripple effect that extends far beyond the immediate lives we touch.</p>
+          </div>
+
+          <!-- Impact pillars -->
+          <div class="grid-3" style="margin-bottom:var(--sp-8);">
+            <div class="trust-card anim anim-d1">
+              <div class="trust-card__icon" style="background:rgba(212,129,102,.12);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--terracotta)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3 class="trust-card__title">Breaking Cycles of Dependency</h3>
+              <p class="trust-card__text">By empowering young people with the skills and confidence to live independently, we break cycles of dependency and foster long-term well-being for entire families.</p>
+            </div>
+            <div class="trust-card anim anim-d2">
+              <div class="trust-card__icon" style="background:rgba(212,129,102,.12);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--terracotta)" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+              </div>
+              <h3 class="trust-card__title">Easing the Family Burden</h3>
+              <p class="trust-card__text">From guiding individuals through the legal system to offering practical help with meal prep and emotional support, we ease the burden on families and create a foundation for growth.</p>
+            </div>
+            <div class="trust-card anim anim-d3">
+              <div class="trust-card__icon" style="background:rgba(212,129,102,.12);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--terracotta)" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              </div>
+              <h3 class="trust-card__title">Helping People Thrive</h3>
+              <p class="trust-card__text">Our unique combination of life skills training, financial literacy and legal advocacy doesn't just help people survive — it helps them thrive and contribute meaningfully to their communities.</p>
+            </div>
+          </div>
+
+          <!-- Invest to Save -->
+          <div style="background:linear-gradient(135deg,var(--terracotta) 0%,#9f4e32 100%);border-radius:var(--r-xl);padding:var(--sp-8);color:#fff;margin-bottom:var(--sp-8);" class="anim">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-6);align-items:center;">
+              <div>
+                <h3 style="color:#fff;font-size:1.75rem;margin-bottom:var(--sp-3);">The &ldquo;Invest to Save&rdquo; Promise</h3>
+                <p style="color:rgba(255,255,255,.85);font-size:1rem;line-height:1.75;margin-bottom:var(--sp-3);">Our promise is about far more than financial savings — it's about investing in futures, reducing long-term care costs, and ensuring that every young person has the chance to build a life of independence and dignity.</p>
+                <p style="color:rgba(255,255,255,.85);font-size:1rem;line-height:1.75;">We help families save on costly interventions like hospital stays or care home placements by equipping them with the tools to navigate life's challenges with confidence.</p>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:var(--sp-3);">
+                <div style="background:rgba(255,255,255,.12);border-radius:var(--r-md);padding:var(--sp-3);">
+                  <p style="font-size:1.8rem;font-weight:800;color:#fff;display:block;">Prevent</p>
+                  <p style="font-size:.875rem;color:rgba(255,255,255,.8);">expensive hospital stays through proactive support and skills training</p>
+                </div>
+                <div style="background:rgba(255,255,255,.12);border-radius:var(--r-md);padding:var(--sp-3);">
+                  <p style="font-size:1.8rem;font-weight:800;color:#fff;display:block;">Reduce</p>
+                  <p style="font-size:.875rem;color:rgba(255,255,255,.8);">long-term care costs through building independence and self-sufficiency</p>
+                </div>
+                <div style="background:rgba(255,255,255,.12);border-radius:var(--r-md);padding:var(--sp-3);">
+                  <p style="font-size:1.8rem;font-weight:800;color:#fff;display:block;">Unlock</p>
+                  <p style="font-size:.875rem;color:rgba(255,255,255,.8);">specialist funding pots and support claims with expert legal advocacy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Community impact -->
+          <div class="grid-2" style="gap:var(--sp-5);margin-bottom:var(--sp-6);">
+            <div class="anim">
+              <div class="sec-hd">
+                <h3>Fostering Community &amp; Belonging</h3>
+                <p>We foster a sense of community and belonging, helping individuals find support networks and navigate everyday challenges with ease.</p>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:var(--sp-3);">
+                <div class="trust-card" style="padding:var(--sp-3);">
+                  <div style="display:flex;gap:12px;"><div class="trust-card__icon" style="width:40px;height:40px;flex-shrink:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div><div><h4 class="trust-card__title" style="font-size:.95rem;">Mental Health Focus</h4><p class="trust-card__text">Our commitment to tackling mental health and building confidence creates stronger, more resilient communities where everyone can flourish.</p></div></div>
+                </div>
+                <div class="trust-card" style="padding:var(--sp-3);">
+                  <div style="display:flex;gap:12px;"><div class="trust-card__icon" style="width:40px;height:40px;flex-shrink:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0"/></svg></div><div><h4 class="trust-card__title" style="font-size:.95rem;">360-Degree Shield</h4><p class="trust-card__text">By combining human services with deep legal knowledge, we create a 360-degree shield of protection and empowerment for every individual we support.</p></div></div>
+                </div>
+                <div class="trust-card" style="padding:var(--sp-3);">
+                  <div style="display:flex;gap:12px;"><div class="trust-card__icon" style="width:40px;height:40px;flex-shrink:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><h4 class="trust-card__title" style="font-size:.95rem;">Lasting Change</h4><p class="trust-card__text">Our impact isn't just about helping individuals — it's about creating lasting change that strengthens the entire community for generations to come.</p></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="anim anim-d2">
+              <div style="background:linear-gradient(140deg,#d6eaed 0%,#faf0ec 100%);border-radius:var(--r-xl);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-md);">
+                <svg viewBox="0 0 300 240" width="80%" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <!-- Community illustration -->
+                  <circle cx="150" cy="100" r="45" fill="rgba(45,95,110,.1)" stroke="rgba(45,95,110,.25)" stroke-width="2"/>
+                  <circle cx="80" cy="150" r="32" fill="rgba(212,129,102,.12)" stroke="rgba(212,129,102,.3)" stroke-width="1.5"/>
+                  <circle cx="220" cy="145" r="32" fill="rgba(212,129,102,.12)" stroke="rgba(212,129,102,.3)" stroke-width="1.5"/>
+                  <circle cx="150" cy="195" r="28" fill="rgba(45,95,110,.08)" stroke="rgba(45,95,110,.2)" stroke-width="1.5"/>
+                  <line x1="113" y1="118" x2="98" y2="135" stroke="rgba(45,95,110,.2)" stroke-width="2" stroke-dasharray="5 3"/>
+                  <line x1="187" y1="118" x2="202" y2="133" stroke="rgba(45,95,110,.2)" stroke-width="2" stroke-dasharray="5 3"/>
+                  <line x1="150" y1="145" x2="150" y2="167" stroke="rgba(45,95,110,.2)" stroke-width="2" stroke-dasharray="5 3"/>
+                  <text x="150" y="104" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="rgba(45,95,110,.8)" font-weight="700">FAMILY</text>
+                  <text x="80" y="153" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="rgba(212,129,102,.9)" font-weight="600">LEGAL</text>
+                  <text x="220" y="148" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="rgba(212,129,102,.9)" font-weight="600">FINANCE</text>
+                  <text x="150" y="198" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="rgba(45,95,110,.8)" font-weight="600">COMMUNITY</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /panel-impact -->
+
+      <!-- ════════════════════════════════
+           TAB 2: OUR OFFER
+           ════════════════════════════════ -->
+      <div class="tab-panel" id="panel-offer" role="tabpanel">
+        <div style="padding:var(--sp-6) 0;">
+
+          <!-- Mission -->
+          <div style="max-width:820px;margin:0 auto var(--sp-8);text-align:center;" class="anim">
+            <span class="sec-tag">Our Mission</span>
+            <h2 style="margin-top:var(--sp-2);">The 360-Degree Shield</h2>
+            <p style="font-size:1.05rem;line-height:1.8;">We don't just &ldquo;help out&rdquo; — we teach the skills needed for a lifetime of independence. True independence is built on a foundation of safety, skills and justice. By combining high-level life coaching with expert legal advocacy, we ensure no young person is left behind and no parent is left to struggle alone.</p>
+          </div>
+
+          <!-- How We Protect and Empower -->
+          <div class="anim" style="margin-bottom:var(--sp-8);">
+            <div class="sec-hd sec-hd--center" style="margin-bottom:var(--sp-5);">
+              <h3>How We Protect &amp; Empower</h3>
+            </div>
+            <div class="grid-2" style="gap:var(--sp-4);margin-bottom:var(--sp-4);">
+              <div class="trust-card" style="border-left:4px solid var(--teal);">
+                <div style="display:flex;align-items:flex-start;gap:var(--sp-3);">
+                  <div style="width:40px;height:40px;min-width:40px;background:var(--teal);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;">1</div>
+                  <div>
+                    <h4 class="trust-card__title">The Road to Independence</h4>
+                    <p class="trust-card__text">We provide expert mentoring to help young adults gain independence, master life skills and financial literacy. From finding a first job to staying healthy and confident, we build the &ldquo;daily habits&rdquo; for a successful life.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="trust-card" style="border-left:4px solid var(--terracotta);">
+                <div style="display:flex;align-items:flex-start;gap:var(--sp-3);">
+                  <div style="width:40px;height:40px;min-width:40px;background:var(--terracotta);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;">2</div>
+                  <div>
+                    <h4 class="trust-card__title">Home &amp; Family Help</h4>
+                    <p class="trust-card__text">We take the pressure off the household. Whether it is cleaning, meal prep, or taking children for nature walks to give parents a break, we ensure the home is a calm and happy place to live.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="trust-card" style="border-left:4px solid var(--teal);">
+                <div style="display:flex;align-items:flex-start;gap:var(--sp-3);">
+                  <div style="width:40px;height:40px;min-width:40px;background:var(--teal);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;">3</div>
+                  <div>
+                    <h4 class="trust-card__title">Legal Advocacy</h4>
+                    <p class="trust-card__text">With our unique legal background, we ensure the system treats you fairly. We provide free consultations, fight for the funding you deserve, and challenge the Council when they say &ldquo;no.&rdquo;</p>
+                  </div>
+                </div>
+              </div>
+              <div class="trust-card" style="border-left:4px solid var(--terracotta);">
+                <div style="display:flex;align-items:flex-start;gap:var(--sp-3);">
+                  <div style="width:40px;height:40px;min-width:40px;background:var(--terracotta);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1rem;">4</div>
+                  <div>
+                    <h4 class="trust-card__title">The &ldquo;Invest to Save&rdquo; Promise</h4>
+                    <p class="trust-card__text">Our weekly package is designed to save money in the long run by preventing expensive hospital stays and care home placements. Investing in your future today is the smartest move to make.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Pillars (flip cards rendered as expandable sections) -->
+          <div class="anim" style="margin-bottom:var(--sp-8);">
+            <div class="sec-hd sec-hd--center" style="margin-bottom:var(--sp-5);">
+              <span class="sec-tag">Our Core Pillars</span>
+              <h2>Everything You Need in One Place</h2>
+              <p>We can help you unlock &ldquo;Specialist&rdquo; funding pots. We aren't just a support service — we are a long-term investment.</p>
+            </div>
+
+            <div class="grid-2" style="gap:var(--sp-4);">
+
+              <!-- Life Skills -->
+              <div class="pillar-card anim anim-d1">
+                <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+                <h3 class="pillar-title">Life Skills &amp; Independence</h3>
+                <p class="pillar-text">Cooking, cleaning, travel and everything in between. We build the practical foundations for independent living.</p>
+                <ul class="pillar-list">
+                  <li>Life Skills &amp; Home Prep — cooking healthy meals, managing a budget, keeping a home clean and safe</li>
+                  <li>Job &amp; Education Mentoring — CV writing, interview practice, finding college courses and volunteer roles</li>
+                  <li>Travel &amp; Community Training — confidence to use buses and trains, finding local clubs and gyms</li>
+                  <li>Practical Admin Support — reading mail, filling out forms, managing important appointments</li>
+                </ul>
+              </div>
+
+              <!-- Financial Literacy -->
+              <div class="pillar-card anim anim-d2">
+                <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+                <h3 class="pillar-title">Financial Literacy Programme</h3>
+                <p class="pillar-text">Debt help, budgeting and bills — designed specifically for neurodivergent minds. No jargon, just clear steps.</p>
+                <ul class="pillar-list">
+                  <li>Week 1: The Safety Net — stopping new debt, finding where your money goes</li>
+                  <li>Week 2: Debt Control — simple ways to pay off what you owe</li>
+                  <li>Week 3: Money Systems — &ldquo;autopilot&rdquo; systems so you don't forget bills</li>
+                  <li>Week 4: Earning More — side hustles and jobs that fit your skills</li>
+                  <li>Week 5: Wage Strategy — making your paycheck last all month</li>
+                  <li>Week 6: Future Growth — keeping your money growing forever</li>
+                </ul>
+              </div>
+
+              <!-- Education & Employment -->
+              <div class="pillar-card anim anim-d1">
+                <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0112 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg></div>
+                <h3 class="pillar-title">Education &amp; Employment</h3>
+                <p class="pillar-text">CVs, college and job coaching — helping you find the right path and take the first steps with confidence.</p>
+                <ul class="pillar-list">
+                  <li>Finding the Right Course — helping you identify local colleges and training you'll love</li>
+                  <li>CV Building — listing skills and what makes you a great worker</li>
+                  <li>Application Support — sitting with you to fill out job or volunteer forms</li>
+                  <li>Practice Interviews — acting as the employer so you can practice your answers</li>
+                  <li>Travel to Work/College — practicing the route until you feel safe going alone</li>
+                  <li>Starting Small — finding volunteering or work experience to try before committing</li>
+                </ul>
+              </div>
+
+              <!-- Emotional Wellbeing -->
+              <div class="pillar-card anim anim-d2">
+                <div class="pillar-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div>
+                <h3 class="pillar-title">Emotional Wellbeing</h3>
+                <p class="pillar-text">Confidence, mental health and community — because feeling good on the inside is just as important as being safe on the outside.</p>
+                <ul class="pillar-list">
+                  <li>Building Confidence — celebrating the small wins, like going to the shop alone</li>
+                  <li>Anxiety Support — a calm space to talk when the world feels too loud</li>
+                  <li>Healthy Habits — how sleep, good food and fresh air make your brain feel happier</li>
+                  <li>Friendships &amp; Loneliness — finding local groups where you can meet like-minded people</li>
+                  <li>Regular Mentoring — check-in chats to solve problems before they get too big</li>
+                </ul>
+              </div>
+
+              <!-- Crisis & Housing -->
+              <div class="pillar-card anim anim-d1" style="grid-column:1/-1;">
+                <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-4);">
+                  <div>
+                    <div style="display:flex;align-items:center;gap:10px;margin-bottom:var(--sp-2);">
+                      <div class="pillar-icon" style="margin-bottom:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+                      <h4 style="color:var(--teal);font-size:1rem;">Care Leavers (16+)</h4>
+                    </div>
+                    <ul class="pillar-list">
+                      <li>Transition planning with your Local Authority Personal Adviser</li>
+                      <li>Help using your &ldquo;Setting Up Home&rdquo; grant</li>
+                      <li>Advocacy to ensure you receive all housing &amp; financial support you're legally owed</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div style="display:flex;align-items:center;gap:10px;margin-bottom:var(--sp-2);">
+                      <div class="pillar-icon" style="margin-bottom:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                      <h4 style="color:var(--teal);font-size:1rem;">Recovery Support</h4>
+                    </div>
+                    <ul class="pillar-list">
+                      <li>A stable, alcohol-and-drug-free space to stay on track</li>
+                      <li>Replacing old habits with gym sessions, cooking or hobbies</li>
+                      <li>Help getting to doctor or recovery group appointments on time</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <div style="display:flex;align-items:center;gap:10px;margin-bottom:var(--sp-2);">
+                      <div class="pillar-icon" style="margin-bottom:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div>
+                      <h4 style="color:var(--teal);font-size:1rem;">Young Parents</h4>
+                    </div>
+                    <ul class="pillar-list">
+                      <li>Parenting skills coaching for babies and toddlers</li>
+                      <li>Baby-proofing and creating a warm, clean home</li>
+                      <li>Finding childcare so you can return to college or work</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Enquiry form -->
+          <div id="enquire" class="anim" style="margin-bottom:var(--sp-8);">
+            <div class="sec-hd sec-hd--center" style="margin-bottom:var(--sp-5);">
+              <span class="sec-tag">Get In Touch</span>
+              <h2>Enquire About Supported Living</h2>
+              <p>We understand that everyone requires different levels of support. Enquire now and we will tailor our services according to the specific needs of the person or people who need our support.</p>
+            </div>
+            <div style="max-width:620px;margin:0 auto;">
+              <div class="form-card">
+                <h4 style="color:var(--teal);margin-bottom:var(--sp-4);">Tell Us About Your Needs</h4>
+                <form novalidate>
+                  <div class="grid-2" style="gap:var(--sp-3);">
+                    <div class="form-grp">
+                      <label class="form-lbl" for="enq-name">Your Name <span class="req">*</span></label>
+                      <input type="text" id="enq-name" class="form-input" placeholder="Full name" required />
+                    </div>
+                    <div class="form-grp">
+                      <label class="form-lbl" for="enq-phone">Phone Number <span class="req">*</span></label>
+                      <input type="tel" id="enq-phone" class="form-input" placeholder="07xxx xxxxxx" required />
+                    </div>
+                  </div>
+                  <div class="form-grp">
+                    <label class="form-lbl" for="enq-email">Email Address <span class="req">*</span></label>
+                    <input type="email" id="enq-email" class="form-input" placeholder="your@email.co.uk" required />
+                  </div>
+                  <div class="form-grp">
+                    <label class="form-lbl" for="enq-who">Who needs support?</label>
+                    <select id="enq-who" class="form-select">
+                      <option value="" disabled selected>Select...</option>
+                      <option>Myself (Adult 18+)</option>
+                      <option>My child / young person</option>
+                      <option>A family member</option>
+                      <option>A care leaver (16+)</option>
+                    </select>
+                  </div>
+                  <div class="form-grp">
+                    <label class="form-lbl" for="enq-services">Which services interest you?</label>
+                    <div style="display:flex;flex-direction:column;gap:8px;margin-top:6px;">
+                      <label class="form-check"><input type="checkbox" /> Life Skills &amp; Independence</label>
+                      <label class="form-check"><input type="checkbox" /> Financial Literacy Programme</label>
+                      <label class="form-check"><input type="checkbox" /> Education &amp; Employment Support</label>
+                      <label class="form-check"><input type="checkbox" /> Emotional Wellbeing &amp; Confidence</label>
+                      <label class="form-check"><input type="checkbox" /> Crisis &amp; Housing Support</label>
+                      <label class="form-check"><input type="checkbox" /> Legal Advocacy</label>
+                    </div>
+                  </div>
+                  <div class="form-grp">
+                    <label class="form-lbl" for="enq-message">Tell us a little more</label>
+                    <textarea id="enq-message" class="form-textarea" placeholder="Tell us about the situation and what kind of support you're looking for. There are no wrong answers."></textarea>
+                  </div>
+                  <button type="submit" class="btn btn--primary btn--full btn--lg">Send Enquiry</button>
+                  <p style="font-size:.78rem;color:rgba(69,75,77,.6);text-align:center;margin-top:var(--sp-2);">We will respond within 24 hours. All conversations are confidential.</p>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mission quote -->
+          <div class="anim" style="text-align:center;background:var(--teal);border-radius:var(--r-xl);padding:var(--sp-8);">
+            <p style="font-size:1.25rem;font-weight:600;color:#fff;font-style:italic;margin-bottom:var(--sp-3);line-height:1.6;">&ldquo;We speak the language of the law, we teach the skills for life, and we stand in your corner — always.&rdquo;</p>
+            <a href="assessments.html#waiting-list" class="btn btn--primary btn--lg">Book an Assessment Today</a>
+          </div>
+
+        </div>
+      </div><!-- /panel-offer -->
+
+    </div><!-- /tabs -->
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-sec" style="background:linear-gradient(135deg,#c0715a 0%,var(--teal-deep) 100%);" aria-labelledby="sl-cta">
+  <div class="container">
+    <div class="cta-sec__inner anim">
+      <h2 class="cta-sec__title" id="sl-cta">Ready to Start Your Journey?</h2>
+      <p class="cta-sec__text">You can stop worrying about the &ldquo;long words&rdquo; and &ldquo;scary forms&rdquo; because we will handle them for you. Enquire now and we will tailor our services to your specific needs.</p>
+      <div class="cta-sec__btns">
+        <a href="#enquire" class="btn btn--primary btn--lg">Enquire Now</a>
+        <a href="assessments.html" class="btn btn--ghost btn--lg">Explore Assessments</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a href="index.html" class="footer__logo">
+          <div class="footer__logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+          <span class="footer__logo-name">Spectrum Neuro Health<span>360° Neurodevelopmental Support</span></span>
+        </a>
+        <p class="footer__desc">Expert ADHD, Autism and Dyslexia assessments with integrated legal advocacy and financial support — for families, individuals and education providers.</p>
+        <div class="footer__contact">
+          <a href="mailto:hello@spectrumneurohealth.co.uk" class="footer__contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg> hello@spectrumneurohealth.co.uk</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer__col-title">Assessments</p>
+        <ul class="footer__links">
+          <li><a href="assessments.html">New Assessments</a></li>
+          <li><a href="assessments.html#transitions">Reassessment at Transitions</a></li>
+          <li><a href="assessments.html#education">For Education Providers</a></li>
+          <li><a href="assessments.html#legal">Legal Help</a></li>
+          <li><a href="assessments.html#financial">Financial Support</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Supported Living</p>
+        <ul class="footer__links">
+          <li><a href="#impact">Our Community Impact</a></li>
+          <li><a href="#offer">Our Offer</a></li>
+          <li><a href="#offer">Life Skills &amp; Independence</a></li>
+          <li><a href="#offer">Crisis &amp; Housing Support</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Information</p>
+        <ul class="footer__links">
+          <li><a href="assessments.html#waiting-list">Join Waiting List</a></li>
+          <li><a href="assessments.html#faq">FAQs</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__legal">&copy; 2025 Spectrum Neuro Health. All rights reserved.</p>
+      <div class="footer__badges"><span class="footer__badge">CQC Pending</span><span class="footer__badge">SASC Compliant</span><span class="footer__badge">Equality Act 2010</span></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash.slice(1);
+    if (hash === 'offer' || hash === 'impact') {
+      const idx = hash === 'impact' ? 0 : 1;
+      document.querySelectorAll('.tabs__btn')[idx]?.click();
+      setTimeout(() => document.getElementById('sl-tabs-section')?.scrollIntoView({ behavior:'smooth', block:'start' }), 200);
+    }
+  });
+</script>
+</body>
+</html>

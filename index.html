@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Spectrum Neuro Health — Expert ADHD, Autism and Dyslexia assessments with legal and financial support for families, individuals and education providers." />
+  <title>Spectrum Neuro Health | Expert Neurodevelopmental Assessments</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════
+     LAUNCH OFFER BANNER
+     ══════════════════════════════════════════════════════════ -->
+<div class="offer-banner" role="banner" aria-label="Special launch offer">
+  <div class="offer-banner__inner">
+    <span class="offer-badge">🎁 Launch Offer</span>
+    <p>The <strong>first 100 families</strong> to join our waiting list receive a <strong>30% discount</strong> on their full assessment.</p>
+    <a href="assessments.html#waiting-list">Secure your spot &rarr;</a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     NAVIGATION
+     ══════════════════════════════════════════════════════════ -->
+<header>
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav__logo" aria-label="Spectrum Neuro Health home">
+        <div class="nav__logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </div>
+        <div class="nav__logo-text">
+          <span class="nav__logo-name">Spectrum Neuro Health</span>
+          <span class="nav__logo-sub">360° Neurodevelopmental Support</span>
+        </div>
+      </a>
+
+      <!-- Desktop menu -->
+      <ul class="nav__menu" role="list">
+        <li class="nav__item">
+          <a href="assessments.html" class="nav__link" aria-haspopup="true">
+            Assessments
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+          </a>
+          <div class="nav__dropdown" role="menu">
+            <a href="assessments.html" class="nav__dd-item" role="menuitem">
+              <span class="nav__dd-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </span>
+              <span class="nav__dd-label">
+                <span class="nav__dd-main">New Assessments</span>
+                <span class="nav__dd-sub">ADHD, Autism &amp; Dyslexia</span>
+              </span>
+            </a>
+            <a href="assessments.html#transitions" class="nav__dd-item" role="menuitem">
+              <span class="nav__dd-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8l4 4-4 4M3 12h18"/></svg>
+              </span>
+              <span class="nav__dd-label">
+                <span class="nav__dd-main">Reassessment at Transitions</span>
+                <span class="nav__dd-sub">School &amp; college transitions</span>
+              </span>
+            </a>
+            <a href="assessments.html#education" class="nav__dd-item" role="menuitem">
+              <span class="nav__dd-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+              </span>
+              <span class="nav__dd-label">
+                <span class="nav__dd-main">For Education Providers</span>
+                <span class="nav__dd-sub">SEN &amp; legal compliance</span>
+              </span>
+            </a>
+            <a href="assessments.html#legal" class="nav__dd-item" role="menuitem">
+              <span class="nav__dd-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
+              </span>
+              <span class="nav__dd-label">
+                <span class="nav__dd-main">Legal Help</span>
+                <span class="nav__dd-sub">EHCP, SEND &amp; advocacy</span>
+              </span>
+            </a>
+            <a href="assessments.html#financial" class="nav__dd-item" role="menuitem">
+              <span class="nav__dd-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </span>
+              <span class="nav__dd-label">
+                <span class="nav__dd-main">Financial Support</span>
+                <span class="nav__dd-sub">6-week money confidence programme</span>
+              </span>
+            </a>
+          </div>
+        </li>
+
+        <li class="nav__item">
+          <a href="supported-living.html" class="nav__link" aria-haspopup="true">
+            Supported Living
+            <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+          </a>
+          <div class="nav__dropdown" role="menu">
+            <a href="supported-living.html#impact" class="nav__dd-item" role="menuitem">
+              <span class="nav__dd-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              </span>
+              <span class="nav__dd-label">
+                <span class="nav__dd-main">Our Impact on the Community</span>
+                <span class="nav__dd-sub">Real change, real families</span>
+              </span>
+            </a>
+            <a href="supported-living.html#offer" class="nav__dd-item" role="menuitem">
+              <span class="nav__dd-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+              </span>
+              <span class="nav__dd-label">
+                <span class="nav__dd-main">Our Offer</span>
+                <span class="nav__dd-sub">Life skills, independence &amp; more</span>
+              </span>
+            </a>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Desktop CTA -->
+      <div class="nav__cta-area">
+        <a href="assessments.html#waiting-list" class="btn btn--primary btn--sm">Join Waiting List</a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button class="nav__mobile-btn" aria-label="Open menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+
+    </div>
+  </nav>
+</header>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <div class="mobile-menu__panel">
+    <div class="mobile-menu__head">
+      <span style="font-weight:700;color:var(--teal);font-size:.95rem;">Menu</span>
+      <button class="mobile-menu__close" aria-label="Close menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <nav>
+      <p class="mobile-sec-title">Assessments</p>
+      <a href="assessments.html" class="mobile-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        New Assessments
+      </a>
+      <a href="assessments.html#transitions" class="mobile-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8l4 4-4 4M3 12h18"/></svg>
+        Reassessment at Transitions
+      </a>
+      <a href="assessments.html#education" class="mobile-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/></svg>
+        For Education Providers
+      </a>
+      <a href="assessments.html#legal" class="mobile-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
+        Legal Help
+      </a>
+      <a href="assessments.html#financial" class="mobile-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Financial Support
+      </a>
+      <p class="mobile-sec-title">Supported Living</p>
+      <a href="supported-living.html#impact" class="mobile-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+        Our Community Impact
+      </a>
+      <a href="supported-living.html#offer" class="mobile-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+        Our Offer
+      </a>
+      <div class="mobile-menu__cta">
+        <a href="assessments.html#waiting-list" class="btn btn--primary btn--full">Join Waiting List</a>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     HERO
+     ══════════════════════════════════════════════════════════ -->
+<main id="main-content">
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="container">
+    <div class="hero__inner">
+
+      <!-- Content -->
+      <div class="hero__content">
+        <div class="hero__badge" aria-label="CQC registration in progress">
+          <span class="dot" aria-hidden="true"></span>
+          CQC Registration in Progress
+        </div>
+
+        <h1 class="hero__title" id="hero-heading">
+          Expert Care for Every<br/>
+          <span class="accent">Neurodivergent Mind</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Spectrum Neuro Health provides a 360-degree service for families, individuals and education providers — combining gold-standard ADHD, Autism and Dyslexia assessments with expert legal advocacy and financial support.
+        </p>
+
+        <div class="hero__actions">
+          <a href="assessments.html" class="btn btn--primary btn--lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            Explore Assessments
+          </a>
+          <a href="assessments.html#waiting-list" class="btn btn--secondary btn--lg">Join Waiting List — Free</a>
+        </div>
+
+        <div class="hero__trust" aria-label="Trust indicators">
+          <span class="hero__trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            CQC Regulated (pending)
+          </span>
+          <span class="hero__trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0"/></svg>
+            Legal Advocacy Included
+          </span>
+          <span class="hero__trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2"/><path d="M12 2v2m0 16v2"/></svg>
+            0% Interest Payment Plans
+          </span>
+          <span class="hero__trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0"/></svg>
+            Children &amp; Adults Welcome
+          </span>
+        </div>
+      </div>
+
+      <!-- Visual -->
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__img-wrap">
+          <svg class="hero__img-svg" viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Abstract brain / connection illustration -->
+            <circle cx="200" cy="160" r="80" fill="rgba(45,95,110,.08)" stroke="rgba(45,95,110,.2)" stroke-width="2"/>
+            <circle cx="200" cy="160" r="50" fill="rgba(45,95,110,.06)" stroke="rgba(45,95,110,.15)" stroke-width="1.5"/>
+            <path d="M160 140 Q180 120 200 140 Q220 160 240 140" stroke="rgba(45,95,110,.5)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <path d="M155 170 Q175 190 200 175 Q225 160 245 175" stroke="rgba(212,129,102,.6)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <!-- Connection dots -->
+            <circle cx="160" cy="140" r="5" fill="rgba(45,95,110,.6)"/>
+            <circle cx="200" cy="140" r="5" fill="rgba(45,95,110,.5)"/>
+            <circle cx="240" cy="140" r="5" fill="rgba(45,95,110,.6)"/>
+            <circle cx="155" cy="170" r="5" fill="rgba(212,129,102,.7)"/>
+            <circle cx="200" cy="175" r="5" fill="rgba(212,129,102,.6)"/>
+            <circle cx="245" cy="175" r="5" fill="rgba(212,129,102,.7)"/>
+            <!-- Outer nodes -->
+            <circle cx="120" cy="100" r="20" fill="rgba(45,95,110,.12)" stroke="rgba(45,95,110,.25)" stroke-width="1.5"/>
+            <circle cx="280" cy="100" r="20" fill="rgba(45,95,110,.12)" stroke="rgba(45,95,110,.25)" stroke-width="1.5"/>
+            <circle cx="100" cy="200" r="16" fill="rgba(212,129,102,.12)" stroke="rgba(212,129,102,.3)" stroke-width="1.5"/>
+            <circle cx="300" cy="210" r="16" fill="rgba(212,129,102,.12)" stroke="rgba(212,129,102,.3)" stroke-width="1.5"/>
+            <!-- Connecting lines -->
+            <line x1="140" y1="108" x2="162" y2="138" stroke="rgba(45,95,110,.2)" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <line x1="260" y1="108" x2="238" y2="138" stroke="rgba(45,95,110,.2)" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <line x1="116" y1="190" x2="153" y2="172" stroke="rgba(212,129,102,.25)" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <line x1="284" y1="200" x2="247" y2="178" stroke="rgba(212,129,102,.25)" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <!-- Text labels -->
+            <text x="110" y="103" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="rgba(45,95,110,.7)" font-weight="600">ASSESS</text>
+            <text x="280" y="103" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" fill="rgba(45,95,110,.7)" font-weight="600">LEGAL</text>
+            <text x="100" y="203" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="rgba(212,129,102,.8)" font-weight="600">FINANCE</text>
+            <text x="300" y="213" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" fill="rgba(212,129,102,.8)" font-weight="600">SUPPORT</text>
+            <text x="200" y="165" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="rgba(45,95,110,.8)" font-weight="700">360°</text>
+          </svg>
+        </div>
+
+        <!-- Floating stat cards -->
+        <div class="hero__float hero__float--1" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          <div>
+            <span class="num">30%</span>
+            <span style="display:block;font-size:.72rem;color:var(--charcoal);font-weight:400;">Launch discount</span>
+          </div>
+        </div>
+
+        <div class="hero__float hero__float--2" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <div>
+            <span class="num">8 wks</span>
+            <span style="display:block;font-size:.72rem;color:var(--charcoal);font-weight:400;">Report turnaround</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     SERVICE TILES — 2 main pillars
+     ══════════════════════════════════════════════════════════ -->
+<section class="service-tiles section" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="service-tiles__hd anim">
+      <span class="sec-tag">What We Offer</span>
+      <h2 id="services-heading">A Complete 360-Degree Service</h2>
+      <p>Two specialist divisions — working together to give you, your family and your school everything you need.</p>
+    </div>
+
+    <div class="service-tiles__grid">
+
+      <!-- Assessments tile -->
+      <a href="assessments.html" class="service-tile anim anim-d1" aria-label="Explore our Assessment services">
+        <div class="service-tile__img service-tile__img--assess" aria-hidden="true">
+          <div class="service-tile__img-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+          </div>
+        </div>
+        <div class="service-tile__body">
+          <span class="service-tile__label">Clinical · Legal · Financial</span>
+          <h3 class="service-tile__title">Assessments Hub</h3>
+          <p class="service-tile__desc">Gold-standard ADHD, Autism and Dyslexia assessments — backed by legal advocacy and a financial freedom programme. We don't give you a report and say goodbye.</p>
+          <ul class="service-tile__list" aria-label="Assessment services">
+            <li>New Assessments for children (5+) and adults</li>
+            <li>Reassessment at school transitions</li>
+            <li>In-house assessors for education providers</li>
+            <li>EHCP legal support and document review</li>
+            <li>6-Week Financial Freedom Programme</li>
+          </ul>
+          <div class="service-tile__cta-row">
+            <span class="service-tile__link">
+              Explore Assessments
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </span>
+            <span class="btn btn--primary btn--sm" aria-hidden="true">View Pricing</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Supported Living tile -->
+      <a href="supported-living.html" class="service-tile anim anim-d2" aria-label="Explore our Supported Living services">
+        <div class="service-tile__img service-tile__img--living" aria-hidden="true">
+          <div class="service-tile__img-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+        </div>
+        <div class="service-tile__body">
+          <span class="service-tile__label">Life Skills · Independence · Community</span>
+          <h3 class="service-tile__title">Supported Living</h3>
+          <p class="service-tile__desc">Expert, non-regulated support for young adults, children and families. We teach the skills needed for a lifetime of independence — from cooking and budgeting to legal advocacy.</p>
+          <ul class="service-tile__list" aria-label="Supported living services">
+            <li>Life skills, independence and home prep</li>
+            <li>Emotional wellbeing and confidence building</li>
+            <li>Education, employment and CV support</li>
+            <li>Crisis, housing and care leaver support</li>
+            <li>Legal advocacy and funding help</li>
+          </ul>
+          <div class="service-tile__cta-row">
+            <span class="service-tile__link">
+              Explore Support
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </span>
+            <span class="btn btn--primary btn--sm" aria-hidden="true">Enquire Now</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     STATS STRIP
+     ══════════════════════════════════════════════════════════ -->
+<section class="stats-strip" aria-label="Service statistics">
+  <div class="container">
+    <div class="stats-strip__grid">
+      <div class="anim">
+        <span class="stat-num">8 wks</span>
+        <span class="stat-lbl">Maximum report turnaround time</span>
+      </div>
+      <div class="anim anim-d1">
+        <span class="stat-num">360°</span>
+        <span class="stat-lbl">Holistic assessment-to-support service</span>
+      </div>
+      <div class="anim anim-d2">
+        <span class="stat-num">0%</span>
+        <span class="stat-lbl">Interest on payment plans</span>
+      </div>
+      <div class="anim anim-d3">
+        <span class="stat-num">3</span>
+        <span class="stat-lbl">Clinical assessments: ADHD, Autism, Dyslexia</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     WHY CHOOSE US
+     ══════════════════════════════════════════════════════════ -->
+<section class="trust-section section" aria-labelledby="trust-heading">
+  <div class="container">
+    <div class="trust-section__hd anim">
+      <span class="sec-tag">Why Families Trust Us</span>
+      <h2 id="trust-heading">More Than a Clinic.<br>A Complete Support System.</h2>
+      <p>Most clinics give you a report and say goodbye. We give you a report and show you the way forward.</p>
+    </div>
+
+    <div class="trust-grid">
+      <div class="trust-card anim anim-d1">
+        <div class="trust-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <h3 class="trust-card__title">CQC-Standard Reports</h3>
+        <p class="trust-card__text">We are completing our CQC registration to ensure our assessments meet the highest national standards — recognised by the NHS, schools and employers.</p>
+      </div>
+
+      <div class="trust-card anim anim-d2">
+        <div class="trust-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/></svg>
+        </div>
+        <h3 class="trust-card__title">Built-In Legal Expertise</h3>
+        <p class="trust-card__text">Our unique legal background means we don't just diagnose — we fight for your EHCP, secure funding, and challenge the Council when they say no. All in one place.</p>
+      </div>
+
+      <div class="trust-card anim anim-d3">
+        <div class="trust-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3 class="trust-card__title">We See the Whole Person</h3>
+        <p class="trust-card__text">We assess your strengths as well as your challenges. Our reports are written in plain English with clear next steps for school, work and life — not just medical jargon.</p>
+      </div>
+
+      <div class="trust-card anim anim-d1">
+        <div class="trust-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3 class="trust-card__title">No Long NHS Waits</h3>
+        <p class="trust-card__text">NHS waiting lists can stretch to years. We aim to see you within weeks, with all assessments and reports completed within 8 weeks of receiving your information.</p>
+      </div>
+
+      <div class="trust-card anim anim-d2">
+        <div class="trust-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3 class="trust-card__title">No Hidden Fees</h3>
+        <p class="trust-card__text">The price you see includes your clinical sessions, standardised tests, and the final written report. We also offer 0% interest payment plans and require only a 20% deposit.</p>
+      </div>
+
+      <div class="trust-card anim anim-d3">
+        <div class="trust-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+        </div>
+        <h3 class="trust-card__title">Sensory-Friendly Approach</h3>
+        <p class="trust-card__text">Our in-person clinics are designed to be calm, quiet and sensory-friendly. We offer online appointments for those who feel safer at home, and always go at your pace.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     PROCESS — Simple as 1-2-3
+     ══════════════════════════════════════════════════════════ -->
+<section class="section" aria-labelledby="process-heading">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-8);align-items:center;">
+      <div class="anim">
+        <div class="sec-hd">
+          <span class="sec-tag">The Process</span>
+          <h2 id="process-heading">Simple as 1-2-3</h2>
+          <p>No confusing paperwork. No medical jargon. Just clear steps to get you the answers you deserve.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step__num" aria-hidden="true">1</div>
+            <div>
+              <h4 class="step__title">The Chat</h4>
+              <p class="step__text">A free call to make sure you are booking the right assessment for your needs. We listen before we advise.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__num" aria-hidden="true">2</div>
+            <div>
+              <h4 class="step__title">The Assessment Day</h4>
+              <p class="step__text">A relaxed meeting — in person at our sensory-friendly clinic or online from the safety of your home — with our expert clinical team.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__num" aria-hidden="true">3</div>
+            <div>
+              <h4 class="step__title">The Plan</h4>
+              <p class="step__text">A one-to-one session to explain your report in plain English and map out your legal, educational and financial next steps.</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:var(--sp-5);">
+          <a href="assessments.html" class="btn btn--primary">Start Your Journey</a>
+        </div>
+      </div>
+
+      <div class="anim anim-d2">
+        <blockquote style="background:var(--teal);border-radius:var(--r-xl);padding:var(--sp-6);color:#fff;position:relative;overflow:hidden;">
+          <div style="position:absolute;top:-20px;right:-20px;width:120px;height:120px;background:rgba(212,129,102,.15);border-radius:50%;"></div>
+          <p style="font-size:1.3rem;font-weight:600;line-height:1.5;color:#fff;font-style:italic;margin-bottom:var(--sp-4);position:relative;z-index:1;">
+            &ldquo;A diagnosis shouldn&rsquo;t be a label. It should be a key that opens the right doors.&rdquo;
+          </p>
+          <cite style="font-size:.875rem;color:rgba(255,255,255,.7);font-style:normal;position:relative;z-index:1;">— Spectrum Neuro Health</cite>
+        </blockquote>
+
+        <div class="info-box--tc info-box" style="margin-top:var(--sp-3);">
+          <p class="info-box__title">🎁 Special Launch Offer — First 100 Families</p>
+          <p class="info-box__text">Join our waiting list today at no cost. The first 100 registrations will receive a 30% discount code for their full assessment when we open. <a href="assessments.html#waiting-list" style="color:var(--terracotta);font-weight:600;">Register now &rarr;</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     TESTIMONIALS
+     ══════════════════════════════════════════════════════════ -->
+<section class="section bg-tc-pale" aria-labelledby="testimonials-heading">
+  <div class="container">
+    <div class="testimonials__hd anim">
+      <span class="sec-tag">Families &amp; Schools Trust Us</span>
+      <h2 id="testimonials-heading">What People Say</h2>
+      <p>Real stories from families we've supported on their journey to clarity and confidence.</p>
+    </div>
+
+    <div class="testimonials__grid">
+      <div class="t-card anim anim-d1">
+        <span class="t-card__mark" aria-hidden="true">&rdquo;</span>
+        <div class="t-card__stars" aria-label="5 stars">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="t-card__quote">"After years of struggling, finally getting an ADHD diagnosis changed everything. The team not only gave us a clear report but also helped us write to the school to get the right support put in place. I didn't have to fight alone."</p>
+        <div class="t-card__author">
+          <div class="t-card__avatar" aria-hidden="true">S</div>
+          <div>
+            <span class="t-card__name">Sarah M.</span>
+            <span class="t-card__detail">Parent of a 10-year-old, London</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="t-card anim anim-d2">
+        <span class="t-card__mark" aria-hidden="true">&rdquo;</span>
+        <div class="t-card__stars" aria-label="5 stars">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="t-card__quote">"As a SENCO I've referred multiple students. The reports are legally robust, clearly written, and the team even came into school to observe — it made a huge difference to our EHCP applications."</p>
+        <div class="t-card__author">
+          <div class="t-card__avatar" aria-hidden="true">J</div>
+          <div>
+            <span class="t-card__name">James T.</span>
+            <span class="t-card__detail">SENCO, Secondary School, Hertfordshire</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="t-card anim anim-d3">
+        <span class="t-card__mark" aria-hidden="true">&rdquo;</span>
+        <div class="t-card__stars" aria-label="5 stars">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+        </div>
+        <p class="t-card__quote">"I'm a 28-year-old with late-diagnosed Autism. I always knew something was different but couldn't articulate it. The assessment gave me answers, and the financial programme afterwards helped me finally manage my money. Life-changing."</p>
+        <div class="t-card__author">
+          <div class="t-card__avatar" aria-hidden="true">R</div>
+          <div>
+            <span class="t-card__name">Rachel K.</span>
+            <span class="t-card__detail">Adult client, Birmingham</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     FINAL CTA
+     ══════════════════════════════════════════════════════════ -->
+<section class="cta-sec" aria-labelledby="cta-heading">
+  <div class="container">
+    <div class="cta-sec__inner anim">
+      <h2 class="cta-sec__title" id="cta-heading">Ready to Get the Answers You Deserve?</h2>
+      <p class="cta-sec__text">Join our waiting list today — it costs nothing. The first 100 families receive 30% off their full assessment when we open. Don't miss your spot.</p>
+      <div class="cta-sec__btns">
+        <a href="assessments.html#waiting-list" class="btn btn--primary btn--lg">Join Waiting List — Free</a>
+        <a href="assessments.html" class="btn btn--ghost btn--lg">Explore Assessments</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════════════════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════════════════════ -->
+<footer class="footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer__grid">
+
+      <!-- Brand -->
+      <div>
+        <a href="index.html" class="footer__logo" aria-label="Spectrum Neuro Health">
+          <div class="footer__logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <span class="footer__logo-name">
+            Spectrum Neuro Health
+            <span>360° Neurodevelopmental Support</span>
+          </span>
+        </a>
+        <p class="footer__desc">Expert ADHD, Autism and Dyslexia assessments with integrated legal advocacy and financial support — for families, individuals and education providers across the UK.</p>
+        <div class="footer__contact">
+          <a href="mailto:hello@spectrumneurohealth.co.uk" class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            hello@spectrumneurohealth.co.uk
+          </a>
+          <span class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>
+            Serving families across the UK
+          </span>
+        </div>
+      </div>
+
+      <!-- Assessments -->
+      <div>
+        <p class="footer__col-title">Assessments</p>
+        <ul class="footer__links">
+          <li><a href="assessments.html">New Assessments</a></li>
+          <li><a href="assessments.html#transitions">Reassessment at Transitions</a></li>
+          <li><a href="assessments.html#education">For Education Providers</a></li>
+          <li><a href="assessments.html#legal">Legal Help</a></li>
+          <li><a href="assessments.html#financial">Financial Support</a></li>
+        </ul>
+      </div>
+
+      <!-- Supported Living -->
+      <div>
+        <p class="footer__col-title">Supported Living</p>
+        <ul class="footer__links">
+          <li><a href="supported-living.html#impact">Our Community Impact</a></li>
+          <li><a href="supported-living.html#offer">Our Offer</a></li>
+          <li><a href="supported-living.html#offer">Life Skills &amp; Independence</a></li>
+          <li><a href="supported-living.html#offer">Crisis &amp; Housing Support</a></li>
+        </ul>
+      </div>
+
+      <!-- Info -->
+      <div>
+        <p class="footer__col-title">Information</p>
+        <ul class="footer__links">
+          <li><a href="assessments.html#waiting-list">Join Waiting List</a></li>
+          <li><a href="assessments.html#faq">FAQs</a></li>
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__legal">
+        &copy; 2025 Spectrum Neuro Health. All rights reserved.<br/>
+        Discounts apply to the assessment fee only. Joining the waiting list does not guarantee an immediate appointment. All assessments are subject to CQC registration approval.
+      </p>
+      <div class="footer__badges" aria-label="Accreditations">
+        <span class="footer__badge">CQC Pending</span>
+        <span class="footer__badge">SASC Compliant</span>
+        <span class="footer__badge">Equality Act 2010</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
