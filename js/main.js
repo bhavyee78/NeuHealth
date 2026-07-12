@@ -73,6 +73,65 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.anim').forEach(el => el.classList.add('visible'));
   }
 
+  /* ── Service carousel ─────────────────────────────────── */
+  document.querySelectorAll('.service-carousel').forEach(carousel => {
+    const track    = carousel.querySelector('.service-carousel__track');
+    const slides   = Array.from(track.children);
+    const prevBtn  = carousel.querySelector('.service-carousel__arrow--prev');
+    const nextBtn  = carousel.querySelector('.service-carousel__arrow--next');
+    const dotsWrap = carousel.querySelector('.service-carousel__dots');
+    let index = 0;
+    let perView = 1;
+
+    const maxPerView = parseInt(carousel.dataset.perView, 10) || 2;
+    function getPerView() {
+      const w = window.innerWidth;
+      if (w <= 640) return 1;
+      if (w <= 900) return Math.min(2, maxPerView);
+      return maxPerView;
+    }
+
+    function maxIndex() { return Math.max(0, slides.length - perView); }
+
+    function buildDots() {
+      dotsWrap.innerHTML = '';
+      for (let i = 0; i <= maxIndex(); i++) {
+        const dot = document.createElement('button');
+        dot.type = 'button';
+        dot.className = 'service-carousel__dot';
+        dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
+        dot.addEventListener('click', () => { index = i; update(); });
+        dotsWrap.appendChild(dot);
+      }
+    }
+
+    function update() {
+      index = Math.min(Math.max(index, 0), maxIndex());
+      const slideWidth = slides[0].getBoundingClientRect().width;
+      const gap = parseFloat(getComputedStyle(track).gap) || 0;
+      track.style.transform = `translateX(-${index * (slideWidth + gap)}px)`;
+
+      const dots = dotsWrap.querySelectorAll('.service-carousel__dot');
+      dots.forEach((d, i) => d.classList.toggle('active', i === index));
+
+      prevBtn.disabled = index === 0;
+      nextBtn.disabled = index === maxIndex();
+    }
+
+    prevBtn.addEventListener('click', () => { index--; update(); });
+    nextBtn.addEventListener('click', () => { index++; update(); });
+
+    window.addEventListener('resize', () => {
+      const newPerView = getPerView();
+      if (newPerView !== perView) { perView = newPerView; buildDots(); }
+      update();
+    });
+
+    perView = getPerView();
+    buildDots();
+    update();
+  });
+
   /* ── URL-hash tab activation ─────────────────────────── */
   const hash = window.location.hash.slice(1);
   if (hash) {
